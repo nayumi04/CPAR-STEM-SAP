@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		body {
+			background-size: cover;
+			background-attachment: fixed;
+			scroll-behavior: smooth;
+			background-image: url(STEM.jpg);
+		}
+
+		a, #back {
+			text-decoration: none; 
+			color: inherit; 
+			font-size: 15px;
+			font-family: sans-serif;
+			opacity: 0.8;
+			margin-left: 30px;
+		}
+
+		#back:hover {
+			color: #dfa05d !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+	a:hover {
+			color: white !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+		#exhibit {
+			padding: 20px;
+		}
+
+		#title {
+			font-size: 40px;
+			font-weight: bold;
+			margin: 50px 30px 0 15px;
+			margin-bottom: 30px ;
+			text-align: left;
+			color: white;
+			  text-shadow: 2px 2px #424242;
+
+			font-family: sans-serif;
+			animation: fadeIn 1.5s ease-in-out;
+		}
+
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+
+		.carousel-item img {
+			width: 80%;
+			object-fit: cover;
+		}
+
+		.fade {
+			opacity: 0;
+			transform: translateY(20px);
+			transition: opacity 1s ease, transform 1s ease;
+		}
+
+		.fade.show {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		p {
+	margin-top: 5px;
+	font-size: 80%;
+	color: white;
+	font-family: sans-serif;
+	align-content: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+h4{
+	color: #ffd2a0;
+		font-family: sans-serif;
+					font-weight: 70%;
+	font-size: 20px;
+	margin-top: 7px;
+
+
+}
+td{
+	  text-align: center; 
+	  padding: 30px;
+     vertical-align: top;
+     	background-color: darkgreen;
+}
+table{
+	 border-collapse: separate;
+  border-spacing: 30px
+
+}
+#td1{
+
+	  text-align: center; 
+     vertical-align: top;
+     width: 50%;
+          	background-color: darkgreen;
+     padding: 20px;
+
+
+
+}
+#td2{
+
+	  text-align: center; 
+     width: 50%;
+     	background-color: darkgreen;
+     padding: 20px;
+     vertical-align: top;
+
+}
+
+.logo{
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: whitesmoke;
+}
+		input[type=submit] {
+			border-radius: 15px;
+			transition-duration: 0.4s;
+		}
+nav{
+	background-color: #a25831;
+	padding: 50px;
+	position: fixed;
+	width: 100%;
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu{
+	background-color: #a25831;
+.dropdown-item{
+	color: lightgray; !important; 
+
+
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background: none !important;
+    color: white !important; 
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+
+
+	</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-top ">
+		            <a class="navbar-brand"><img src="logo.png"   alt="Avatar Logo" style="width:55px;" > </a>
+		            <ul class="navbar-nav">
+		                <li class="nav-item"><a href="index.html" class="nav-link" target="_blank" >HOME</a></li>
+		                <li class="nav-item"><a href="ANTHRO.html" class="nav-link" target="_blank" >National Museum of Anthropology</a></li>
+		                <li class="nav-item"><a href="FA.html" class="nav-link " target="_blank" >National Museum of Fine Arts</a></li>
+		                <li class="nav-item"><a href="PARTNER.html" class="nav-link" target="_blank">Partner Community</a></li>
+ <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Reflections
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="REF1.html">Stem 1</a></li>
+                        <li><a class="dropdown-item" href="REF2.html">Stem 2</a></li>
+                        <li><a class="dropdown-item" href="REF3.html">Stem 3</a></li>
+                        <li><a class="dropdown-item" href="REF4.html">Stem 4</a></li>
+                        <li><a class="dropdown-item" href="REF5.html">Stem 5</a></li>
+                    </ul>
+                </li>
+		            </ul>
+		        </nav>
+
+<div class="container fade" id="exhibit">
+	<br><br>
+	<h1 id="title"> Reflections from 12 STEM 1 </h1>
+
+	<table class="table">
+		<tr>
+			<td id= "td1">
+  <img src="Ancheta_Jeremiah.png"  class="logo" id="1x1" alt="Avatar" style="width:200px">
+<h4> Ancheta </h4>
+<p> Culture and the arts play a crucial role in fostering connections among individuals from diverse backgrounds by providing a universal language that transcends barriers. Through music, visual arts, literature, and performance, people can express shared emotions and experiences that resonate across cultural divides. These artistic expressions often serve as bridges, allowing individuals to see the world from different perspectives and fostering empathy. Cultural exchange through art also promotes understanding, helping to break down stereotypes and build mutual respect. Furthermore, engaging with different artistic traditions encourages collaboration and dialogue, enriching communities and broadening worldviews. Ultimately, the arts create a space where diverse voices can be heard, uniting people by celebrating differences while highlighting common human experiences.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="PARAGUA_Nathan Gabriel C..jpg"  class="logo" alt="Avatar" style="width:200px">
+<h4> Paragua </h4>
+<p> The role of culture and arts in fostering connections among individuals is that we get to know more on their perspective considering they come from diverse backgrounds. With this we can learn a deeper understanding of their culture and vice versa. In addition, having different individuals from diverse backgrounds can have different interpretations of some art works. With this in mind we can take note that even if we look at things differently we can say that in the end, there is an interpretation or deeper message we get from something especially arts which will then make us realize that there really is unity in diversity.
+
+</p> 
+
+			</td>
+		</tr>
+		<tr>
+			<td id= "td1">
+  <img src="SANIDAD, Glorious Esther, A.png"  class="logo" alt="Avatar" style="width:200px">
+<h4> Sanidad </h4>
+<p>The role of culture and the arts in a community fostering people from different backgrounds is important as it is what ties us all together. Art only has one objective; to inspire, no matter what culture, country, and community it is in or created. Culture is diverse on the other hand, but it still connects us as even if everyone is different. It connects in a way that it gives everybody a share identity and promotes it by the arts. As mentioned arts and culture are interconnected, we are collectively inspired by the art; murals, paintings, and statues we see that we make a change to include this in culture. Then we get inspired by culture and become creative to create art. The cycle continues as we all, with diverse backgrounds get together.
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Araga, Florence Miguel S..jpg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Araga </h4>
+<p> Culture and the arts play an essential role in fostering connections among individuals from diverse backgrounds, offering a unique avenue for empathy, communication, and shared experience. One of the main ways in which culture and the arts form bonds is by establishing common experiences, Art possesses a special ability to overcome linguistic and cultural barriers. A listener may not comprehend the particular cultural background of a piece of music, but they can still be moved by the rhythm or melody. Culture and the arts encourage empathy and understanding through the ability to walk a mile in someone else's shoes. Literature, theater, movie-going, and other forms of art enable one to experience the views, backgrounds, and stories of people from other cultures. Experiencing this other person's story creates empathy and tears down the barriers of prejudice that inevitably stem from ignorance. For example, the act of reading a novel by an author who belongs to another cultural group or watching a play that deals with issues of social justice can trigger discussions on identity, inequality, and solidarity.
+
+
+</p> 
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td id= "td1">
+  <img src="DIMAALA_Phoemela Desiree P..JPEG" alt="Avatar"  class="logo" style="width:200px">
+<h4> Dimaala </h4>
+<p> As the saying goes, "art is the only limitless thing in life," and this idea of boundlessness is what allows art to foster connections between people by placing them in a common ground in spite of their backgrounds. When individuals are exposed to different forms of art, they are able to appreciate diversity by understanding the various ways people have experienced and expressed themselves throughout history. Metaphorically, art, in every form, offers a lens into the lives or human experiences of others, which showcases how life is viewed from different perspectives. Moreso, this exposure allows individuals to explore perspectives that may be different from their own, which enhances their abilities to share the feelings of other people. Through this, art breaks down stereotypes and prejudices against other cultures, creating profound and meaningful connections among individuals from different paths in life.
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="INGEL_Andrea May V..png" alt="Avatar"  class="logo" style="width:200px">
+<h4> Ingel </h4>
+<p> Art is able to portray diversity by showcasing different kinds of artwork that represent various cultures from multiple countries. The diversity these artworks portray, provides a gateway for individuals to understand the artwork, even if they came from a different background than the artist. With this, art becomes a universal language that everyone can use to communicate messages to an individual or a large group of people. This universal language encourages people to form meaningful connections as they appreciate the artwork, despite their differences. Therefore, art beautifully promotes diversity and inclusivity.
+
+
+</p> 
+
+			</td>
+		</tr>
+
+		<tr>
+			<td id= "td1">
+  <img src="MAGSINO_Nice A..Jpeg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Magsino </h4>
+<p> Art is a form of expression that communicates a meaningful idea to its viewers. Every artist has its own unique style and trademark, may it be through the strokes of their paintings or through implying a certain idea or message through their art. Being exposed to various forms of art may bring inspiration to other aspiring artists or even broaden the perspective of its viewers about certain things in life that is implanted on the idea of a certain artwork. Artworks may just be still displayed like a furniture, but the meaning behind it and its impact can definitely move mountains.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="RECEL_Ron Gerard Q .jpg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Recel </h4>
+<p> People develop an understanding of other cultures through viewing of various forms of art. People can discover innovative traditions and lifestyles by viewing paintings, listening to music, or watching films from different cultures. With this, we may become more tolerant and assist in overcoming bias as a result. In addition to producing feelings, art produces interpersonal connections between persons with diverse backgrounds. Attending events like concerts, festivals, or museums supports people to happily learn about and experience different cultures. That is why people can better understand one another and build friendships because of to these common experiences.
+</p> 
+
+			</td>
+		</tr>
+</table>
+
+</div>
+ 
+
+<!-- ✅ FADE-IN ANIMATION SCRIPT -->
+<script>
+	const fadeElements = document.querySelectorAll('.fade');
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('show');
+			}
+		});
+	});
+
+	fadeElements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		body {
+			background-size: cover;
+			background-attachment: fixed;
+			scroll-behavior: smooth;
+			background-color: ghostwhite;
+		}
+
+		a, #back {
+			text-decoration: none; 
+			color: inherit; 
+			font-size: 15px;
+			font-family: sans-serif;
+			opacity: 0.8;
+			margin-left: 30px;
+		}
+
+		a:hover {
+			color: #dfa05d !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+
+		#exhibit {
+			background-color: ghostwhite;
+			padding: 20px;
+		}
+
+		#title {
+			font-size: 40px;
+			font-weight: bold;
+			margin: 50px 30px 0 25px;
+			text-align: left;
+			color: darkgreen;
+			font-family: sans-serif;
+			animation: fadeIn 1.5s ease-in-out;
+		}
+
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+
+		.carousel-item img {
+			width: 80%;
+			object-fit: cover;
+		}
+
+		.fade {
+			opacity: 0;
+			transform: translateY(20px);
+			transition: opacity 1s ease, transform 1s ease;
+		}
+
+		.fade.show {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		p {
+	font-size: 100%;
+	color: #81501c;
+	font-family: sans-serif;
+	padding: 20px;
+	align-content: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+
+		input[type=submit] {
+			border-radius: 15px;
+			transition-duration: 0.4s;
+		}
+nav{
+	background-color: #a25831;
+	padding: 50px;
+	position: fixed;
+	width: 100%;
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu{
+	background-color: #a25831;
+.dropdown-item{
+	color: lightgray; !important; 
+
+
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background: none !important;
+    color: white !important; 
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+	</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-top ">
+		            <a class="navbar-brand"><img src="logo.png" alt="Avatar Logo" style="width:55px;" > </a>
+		            <ul class="navbar-nav">
+		                <li class="nav-item"><a href="index.html" class="nav-link" target="_blank" >HOME</a></li>
+		                <li class="nav-item"><a href="ANTHRO.html" class="nav-link" target="_blank" >National Museum of Anthropology</a></li>
+		                <li class="nav-item"><a href="FA.html" class="nav-link " target="_blank" >National Museum of Fine Arts</a></li>
+		                <li class="nav-item"><a href="PARTNER.html" class="nav-link" target="_blank">Partner Community</a></li>
+ <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Reflections
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="REF1.html">Stem 1</a></li>
+                        <li><a class="dropdown-item" href="REF2.html">Stem 2</a></li>
+                        <li><a class="dropdown-item" href="REF3.html">Stem 3</a></li>
+                        <li><a class="dropdown-item" href="REF4.html">Stem 4</a></li>
+                        <li><a class="dropdown-item" href="REF5.html">Stem 5</a></li>
+                    </ul>
+                </li>
+		            </ul>
+		        </nav>
+
+<!-- ✅ FADE-IN SECTION -->
+<div class="container-fluid fade" id="exhibit">
+	<br><br>
+	<h1 id="title">Kaban ng Lahi</h1>
+
+	<table class="table">
+		<tr>
+			<td>
+				<p>
+					A great man once said; “the value of history is that it teaches us what man has done and thus what man is”. The Kaban ng Lahi is a gallery from the National Museum of Anthropology, which consists of various archaeological treasures found in the Philippines. It was architecturally designed to imitate a cave-like structure, since most of the archaeological treasures were discovered from different caves located in the Philippines, 1,000 to 2,500 years ago. Moreover, these treasures include different potteries, urns, and jars such as the Manunggul Jar, Leta-Leta Stem Cup, Maitum Anthropomorphic Burial Jar 21, Likha, and more. The Kaban ng Lahi was installed in the National Museum of Anthropology in 1998 to celebrate the 100th anniversary of Philippine Independence. It greatly aims to highlight the former burial traditions of many Filipinos and commend their outstanding craftsmanship that depicts the different cultures and traditions many Filipinos have. 
+				<a href="ANTHRO.html"><h1 id="back">Anthropology Exhibitions</h1></a>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!-- ✅ FIXED CAROUSEL -->
+<div class="container text-center">
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="KNL1.jpg" class="d-block mx-auto w-50" alt="Slide 1">
+			</div>
+			<div class="carousel-item">
+				<img src="KNL2.jpg" class="d-block mx-auto w-50" alt="Slide 2">
+			</div>
+			<div class="carousel-item">
+				<img src="KNL3.jpg" class="d-block mx-auto w-50" alt="Slide 3">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</button>
+	</div>
+</div>
+<br>
+<!-- ✅ FADE-IN ANIMATION SCRIPT -->
+<script>
+	const fadeElements = document.querySelectorAll('.fade');
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('show');
+			}
+		});
+	});
+
+	fadeElements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

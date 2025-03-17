@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		body {
+			background-size: cover;
+			background-attachment: fixed;
+			scroll-behavior: smooth;
+			background-image: url(STEM.jpg);
+		}
+
+		a, #back {
+			text-decoration: none; 
+			color: inherit; 
+			font-size: 15px;
+			font-family: sans-serif;
+			opacity: 0.8;
+			margin-left: 30px;
+		}
+
+		#back:hover {
+			color: #dfa05d !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+	a:hover {
+			color: white !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+		#exhibit {
+			padding: 20px;
+		}
+
+		#title {
+			font-size: 40px;
+			font-weight: bold;
+			margin: 50px 30px 0 15px;
+			margin-bottom: 30px ;
+			text-align: left;
+			color: white;
+			  text-shadow: 2px 2px #424242;
+
+			font-family: sans-serif;
+			animation: fadeIn 1.5s ease-in-out;
+		}
+
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+
+		.carousel-item img {
+			width: 80%;
+			object-fit: cover;
+		}
+
+		.fade {
+			opacity: 0;
+			transform: translateY(20px);
+			transition: opacity 1s ease, transform 1s ease;
+		}
+
+		.fade.show {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		p {
+	margin-top: 5px;
+	font-size: 80%;
+	color: white;
+	font-family: sans-serif;
+	align-content: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+h4{
+	color: #ffd2a0;
+		font-family: sans-serif;
+					font-weight: 70%;
+	font-size: 20px;
+	margin-top: 7px;
+
+
+}
+td{
+	  text-align: center; 
+	  padding: 30px;
+     vertical-align: top;
+     	background-color: darkgreen;
+}
+table{
+	 border-collapse: separate;
+  border-spacing: 30px
+
+}
+#td1{
+
+	  text-align: center; 
+     vertical-align: top;
+     width: 50%;
+          	background-color: darkgreen;
+     padding: 20px;
+
+
+
+}
+#td2{
+
+	  text-align: center; 
+     width: 50%;
+     	background-color: darkgreen;
+     padding: 20px;
+     vertical-align: top;
+
+}
+
+.logo{
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: whitesmoke;
+}
+		input[type=submit] {
+			border-radius: 15px;
+			transition-duration: 0.4s;
+		}
+nav{
+	background-color: #a25831;
+	padding: 50px;
+	position: fixed;
+	width: 100%;
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu{
+	background-color: #a25831;
+.dropdown-item{
+	color: lightgray; !important; 
+
+
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background: none !important;
+    color: white !important; 
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+
+
+	</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-top ">
+		            <a class="navbar-brand"><img src="logo.png"   alt="Avatar Logo" style="width:55px;" > </a>
+		            <ul class="navbar-nav">
+		                <li class="nav-item"><a href="index.html" class="nav-link" target="_blank" >HOME</a></li>
+		                <li class="nav-item"><a href="ANTHRO.html" class="nav-link" target="_blank" >National Museum of Anthropology</a></li>
+		                <li class="nav-item"><a href="FA.html" class="nav-link " target="_blank" >National Museum of Fine Arts</a></li>
+		                <li class="nav-item"><a href="PARTNER.html" class="nav-link" target="_blank">Partner Community</a></li>
+ <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Reflections
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="REF1.html">Stem 1</a></li>
+                        <li><a class="dropdown-item" href="REF2.html">Stem 2</a></li>
+                        <li><a class="dropdown-item" href="REF3.html">Stem 3</a></li>
+                        <li><a class="dropdown-item" href="REF4.html">Stem 4</a></li>
+                        <li><a class="dropdown-item" href="REF5.html">Stem 5</a></li>
+                    </ul>
+                </li>
+		            </ul>
+		        </nav>
+
+<div class="container fade" id="exhibit">
+	<br><br>
+	<h1 id="title"> Reflections from 12 STEM 2 </h1>
+
+	<table class="table">
+		<tr>
+			<td id= "td1">
+  <img src="Elizabeth.jpg"  class="logo" id="1x1" alt="Avatar" style="width:200px">
+<h4> Evangelista </h4>
+<p> The role of culture and arts to foster connections with individuals from diverse backgrounds is that they can connect with them in different and deeper ways. Art is not restricted to one meaning, rather, it can be interpreted as different meanings. Because of this, this allows people to share their stories or traditions to one another, expressing similarities or things they can relate to with the piece. Cultural expressions like dance or objects such as weaving, it can create a bridge of interest with people despite if they have different backgrounds or even language barriers. Culture and arts is able to promote unity and understanding with one another as it is to celebrate the diversity of ones culture and promote intriguing pieces to open meaningful interactions with one another.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Gael.png"  class="logo" alt="Avatar" style="width:200px">
+<h4> Medina </h4>
+<p> 
+     Reflecting upon my experience in the Social Activity Program in The National Museum of Fine Arts, this made me realize how wealthy our country is when it comes to preserving various forms of art. Artists all over the country regardless if from urban or rural origins, each individual receives recognition for their hard work and creativity. We as Filipinos should be grateful toward the efforts put in to showcase these artworks for everyone to see instead of exploiting it for mere profit. This serves as a foundation for Filipino talents in art and inspiration for the next generation to express their thoughts and emotions through mediums as an outlet. Take pride in these creations as they are culture itself that shows no signs of stopping.
+
+</p> 
+
+			</td>
+		</tr>
+		<tr>
+			<td id= "td1">
+  <img src="Gan.png"  class="logo" alt="Avatar" style="width:200px">
+<h4> Rowllan </h4>
+<p>
+	Culture plays a huge role in the aspect of uniting people of different backgrounds since not all people in a single area celebrates or practices a certain culture. This difference established by culture between us forms a path of unity with each other since we start to learn and accept how culturally diverse, we Filipinos are. Through culture, one can express themselves to others which can help in forming a connection with others through practicing your own culture. This helps people realize how important culture is in one’s lives, which would lead to a better understanding of the impact of practicing culture that could then help one community relate to the bigger group through their culture which serves as their identity.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Geoff.png" alt="Avatar"  class="logo" style="width:200px">
+<h4> Serrano </h4>
+<p> The culture and the arts expressed and displayed in the National Museum of Fine Arts connect individuals from various walks of life through a shared national identity. These artworks can be valued by any Filipino, especially those themed around the nation’s history, as the individual can trace their heritage back to these artworks. These arts allow Filipinos to take pride in their nation’s most prized artworks and can inspire any one of the individuals to aspire to uphold the nation’s cultural heritage and arts. Personally, I’ve found that these artworks help me bond with our assigned student as we had something in front of us that elicited similar emotions and can be understood by both of us. This, along with the nationality aspect of our culture, helped me connect with the student and open ourselves for deeper conversations about the impact of art in modern society.
+
+
+</p> 
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td id= "td1">
+  <img src="Josh Magdalita.png" alt="Avatar"  class="logo" style="width:200px">
+<h4> Magdalita </h4>
+<p>Culture and arts play a vital role in fostering unity among individuals from diverse backgrounds.
+They serve as a bridge that connects every Filipino to the nation's heritage, whether through
+practice, appreciation, or expression. Supporting our own culture is essential in promoting
+national identity and gaining recognition on a global scale. Art, in particular, serves as a
+powerful tool to unite citizens by highlighting the country's creativity and talent. It conveys
+meaningful messages that reflect societal issues, history, and aspirations, encouraging collective
+understanding and awareness. By supporting local art, we not only empower artists but also help
+amplify messages that deserve attention.
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Kriztel.png" alt="Avatar"  class="logo" style="width:200px">
+<h4> Napallatan </h4>
+<p> Art has the ability to bring new worldviews, which lead individuals to doubt their own visions and embrace the richness of cultures; art can experience feelings and emotions common across cultures, evoking sympathy and understanding; and through experience with artworks from diverse backgrounds, individuals can truly enjoy the beauty and worth of diversity, finally creating more profound relationships and an open community. In other words, being exposed to various types of art enables individuals to appreciate diversity because they are able to open their minds and shatter misconceptions.
+
+
+</p> 
+
+			</td>
+		</tr>
+
+		<tr>
+			<td id= "td1">
+  <img src="Ramani.png" alt="Avatar"  class="logo" style="width:200px">
+<h4> Cordova </h4>
+<p> The National Museum of the Philippines stands as a testament to this artistic and cultural legacy, housing masterpieces that shape our identity. Luna’s Spoliarium reflects colonial oppression, while Amorsolo’s paintings celebrate our rural traditions and natural beauty. These artworks are more than just displays of talent—they serve as cultural medals that remind us of our rich heritage and the role of art in shaping our society, strengthening the bonds within our communities through shared history and pride.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Yong.png" alt="Avatar"  class="logo" style="width:200px">
+<h4> Somera </h4>
+<p>The different form of art helps individuals appreciate diversity by the very concepts the art gives. Many of the artworks in the museum are about culture, feelings, and discovery invoking opportunities to appreciate and respect the arts. By being exposed to different traditions and cultures of the same people as you, you start to compare and contrast it to your own traditions and culture and on what it may differ as well as what you have in common. Leaving the digital world for a moment makes us sensitive to real art which then translates to being more appreciative of the beauty, meaning, and history of such skillful work. Going back to the digital world wont erase the experiences that was gained from the museum and only further builds love for art and appreciation  
+</p> 
+
+			</td>
+		</tr>
+</table>
+
+</div>
+ 
+
+<!-- ✅ FADE-IN ANIMATION SCRIPT -->
+<script>
+	const fadeElements = document.querySelectorAll('.fade');
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('show');
+			}
+		});
+	});
+
+	fadeElements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

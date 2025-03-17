@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		body {
+			background-size: cover;
+			background-attachment: fixed;
+			scroll-behavior: smooth;
+			background-image: url(STEM.jpg);
+		}
+
+		a, #back {
+			text-decoration: none; 
+			color: inherit; 
+			font-size: 15px;
+			font-family: sans-serif;
+			opacity: 0.8;
+			margin-left: 30px;
+		}
+
+		#back:hover {
+			color: #dfa05d !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+	a:hover {
+			color: white !important; 
+			transition: color 0.3s ease-in-out; 
+		}
+		#exhibit {
+			padding: 20px;
+		}
+
+		#title {
+			font-size: 40px;
+			font-weight: bold;
+			margin: 50px 30px 0 15px;
+			margin-bottom: 30px ;
+			text-align: left;
+			color: white;
+			  text-shadow: 2px 2px #424242;
+
+			font-family: sans-serif;
+			animation: fadeIn 1.5s ease-in-out;
+		}
+
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+
+		.carousel-item img {
+			width: 80%;
+			object-fit: cover;
+		}
+
+		.fade {
+			opacity: 0;
+			transform: translateY(20px);
+			transition: opacity 1s ease, transform 1s ease;
+		}
+
+		.fade.show {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		p {
+	margin-top: 5px;
+	font-size: 80%;
+	color: white;
+	font-family: sans-serif;
+	align-content: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+h4{
+	color: #ffd2a0;
+		font-family: sans-serif;
+					font-weight: 70%;
+	font-size: 20px;
+	margin-top: 7px;
+
+
+}
+td{
+	  text-align: center; 
+	  padding: 30px;
+     vertical-align: top;
+     	background-color: darkgreen;
+}
+table{
+	 border-collapse: separate;
+  border-spacing: 30px
+
+}
+#td1{
+
+	  text-align: center; 
+     vertical-align: top;
+     width: 50%;
+          	background-color: darkgreen;
+     padding: 20px;
+
+
+
+}
+#td2{
+
+	  text-align: center; 
+     width: 50%;
+     	background-color: darkgreen;
+     padding: 20px;
+     vertical-align: top;
+
+}
+
+.logo{
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: whitesmoke;
+}
+		input[type=submit] {
+			border-radius: 15px;
+			transition-duration: 0.4s;
+		}
+nav{
+	background-color: #a25831;
+	padding: 50px;
+	position: fixed;
+	width: 100%;
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu{
+	background-color: #a25831;
+.dropdown-item{
+	color: lightgray; !important; 
+
+
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background: none !important;
+    color: white !important; 
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+
+
+	</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg justify-content-center navbar-dark fixed-top ">
+		            <a class="navbar-brand"><img src="logo.png"   alt="Avatar Logo" style="width:55px;" > </a>
+		            <ul class="navbar-nav">
+		                <li class="nav-item"><a href="index.html" class="nav-link" target="_blank" >HOME</a></li>
+		                <li class="nav-item"><a href="ANTHRO.html" class="nav-link" target="_blank" >National Museum of Anthropology</a></li>
+		                <li class="nav-item"><a href="FA.html" class="nav-link " target="_blank" >National Museum of Fine Arts</a></li>
+		                <li class="nav-item"><a href="PARTNER.html" class="nav-link" target="_blank">Partner Community</a></li>
+ <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Reflections
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="REF1.html">Stem 1</a></li>
+                        <li><a class="dropdown-item" href="REF2.html">Stem 2</a></li>
+                        <li><a class="dropdown-item" href="REF3.html">Stem 3</a></li>
+                        <li><a class="dropdown-item" href="REF4.html">Stem 4</a></li>
+                        <li><a class="dropdown-item" href="REF5.html">Stem 5</a></li>
+                    </ul>
+                </li>
+		            </ul>
+		        </nav>
+
+<div class="container fade" id="exhibit">
+	<br><br>
+	<h1 id="title"> Reflections from 12 STEM 4 </h1>
+
+	<table class="table">
+		<tr>
+			<td id= "td1">
+  <img src="Labos.jfif"  class="logo" id="1x1" alt="Avatar" style="width:200px">
+<h4> Labos </h4>
+<p> Culture and arts are a universal language that goes beyond the language and ethnicity barriers and allows people to share their own experiences and stories through artistic expression. Art serves as a bridge to connect people from different backgrounds to foster a more inclusive society. This plays a crucial role in fostering connections among individuals from diverse backgrounds highlighting the richness of different traditions and worldviews, and this exposure can break stereotypes and foster respect for diversity. Art can serve as a tool for conversation that helps raise awareness of social issues and provides a platform for voices that might otherwise be unheard. It is also a creative expression that can serve as a bridge between different generations, by helping people navigate their unique cultural heritage while engaging with society.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="TANGONAN.png"  class="logo" alt="Avatar" style="width:200px">
+<h4> Tangonan </h4>
+<p> 
+     Culture and arts has a important influence in our society and nationalities, which it fosters connections among all individuals from different perspectives and diverse backgrounds by the use of languages that transcend linguistics and language barriers among communications. Therefore, these individuals provides a space for all expressions, understanding, and empathy to be expressed and understood all different perspectives and experiences. Among these cultural events, literatures, exhibitions, and musics, it gives reason to all individuals that they have the rights or opportunity to engage and contribute in meaningful interactions, reflections, exchanging of ideas, opinions, and experiences that promotes to build relationships among all individuals. It does not only help individuals in helping building cultural and barriers in languages, thus also fosters a unity of citizenships in globalization. It is proven that roles of culture and arts connects individuals through spiritual, emotional, and physical in appreciating the influence of culture and arts into our lives.
+
+</p> 
+
+			</td>
+		</tr>
+		<tr>
+			<td id= "td1">
+  <img src="Carino.png"  class="logo" alt="Avatar" style="width:200px">
+<h4> Cariño </h4>
+<p>
+Culture and arts is a great resemblance on who are we and what we do in this world. It serves as an image where one’s characteristics and background can easily be distinguish through different beliefs, food, and other part of their culture that makes them unique. Art is also a way in expressing the different emotions of people from different experiences from where they came from. It is also a medium in showing or illustrating the day to day experiences of people alongside with their culture.
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Macaspac.jpeg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Macaspac </h4>
+<p> Culture and arts play an important role in fostering connections among individuals from diverse backgrounds by serving as a universal language that transcends differences. Through music, literature, visual arts, and performances, people can relate to the emotions, ideas, beliefs, and stories being expressed, creating a sense of understanding and shared experience. When individuals see their own struggles, joys, or aspirations reflected in another culture’s artistic expressions, they develop empathy and appreciation for perspectives different from their own. This emotional and intellectual engagement helps break down barriers, encouraging meaningful conversations and friendships. Additionally, cultural traditions and artistic creations provide a platform for storytelling, allowing people to celebrate both their uniqueness and common humanity. By experiencing and embracing diverse forms of art, individuals build bridges that unite communities and foster a sense of belonging.
+
+</p> 
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td id= "td1">
+  <img src="JARDIN.jpeg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Jardin </h4>
+<p>Art is known to be diverse, meaning that a culture cannot be contained within one form of art, as people have different ways of expressing beauty of a culture. Exposure in different art forms help us understand the roots of our culture, and the groundworks of how a culture came to be. Knowing this, we can show our appreciation not only to the culture, but also to the people that cultivated that culture—such as the GAMABA Awardees that preserved every bit of their culture.
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Gumban.jpeg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Gumban </h4>
+<p> People develop empathy through art exposure because different forms of art help them encounter diverse perspectives as well as cultural traditions and emotional expressions. Through its display of artistic expressions, the world allows people to understand and value cultural differences by showing common human experiences. People develop meaningful relationships by uncovering universal cultural aspects that exist beyond national borders.  
+
+
+</p> 
+
+			</td>
+		</tr>
+
+		<tr>
+			<td id= "td1">
+  <img src="Zafra.jpeg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Zafra </h4>
+<p> Through the exposure to different forms of art, individuals are able to learn more about the story behind every person they see and every culture they follow. Moreover, most art forms are based on true stories and histories of that specific country/region. By being exposed to such art forms, it fosters the fact that people are becoming more knowledgeable of the history of the world despite living in different countries. It also stops the stereotypes and false information that make people open-minded about the topics and beliefs surrounding the whole world. Lastly, it promotes inclusivity and creativity as one becomes inspired by what he/she has seen and understood.
+
+</p> 
+
+			</td>
+			<td  id= "td2">
+  <img src="Ramos.jpeg" alt="Avatar"  class="logo" style="width:200px">
+<h4> Ramos </h4>
+<p>During our field trip to the National Museum of Anthropology, I learned that exposure to different forms of art helps people appreciate diversity by showing how unique each culture is. As we explored various exhibits, I saw how art from different Filipino groups told their stories and reflected their values. This made me realize that even though people come from different backgrounds, art has a way of connecting us by highlighting shared human experiences. When we talked with the Grade 8 students from Recto High School about the artifacts, it was clear that art sparked discussions and helped us understand each other better. It showed me how art can break down barriers and create meaningful connections between people from different walks of life. Overall, experiencing different art forms opens our eyes to the beauty of diversity and allows us to form stronger, more respectful relationships.
+ 
+</p> 
+
+			</td>
+		</tr>
+</table>
+
+</div>
+ 
+
+<!-- ✅ FADE-IN ANIMATION SCRIPT -->
+<script>
+	const fadeElements = document.querySelectorAll('.fade');
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add('show');
+			}
+		});
+	});
+
+	fadeElements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
